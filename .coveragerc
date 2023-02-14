@@ -1,0 +1,11 @@
+[run]
+
+[report]
+exclude_lines =
+  def __str__
+  def test_quando_salario_for_maior_que10_mil_retorna_exception(self):
+  with pytest.raises(Exception):
+
+
+[html]
+directory = coverage_relatorio_html
